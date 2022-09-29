@@ -1,0 +1,237 @@
+/* 
+/* .overlay{
+  position:absolute;
+  background-color: rgba(0,0,0,0.2);
+  height: 100%;
+  width:100%;
+  mix-blend-mode: normal;
+}
+
+#title{
+  color:white
+}
+
+form{
+  background-color : white;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+} */
+
+/* .btn-primary{
+  color:#fff;
+  background-color: #813AFE !important;
+  border-color:#813AFE !important;
+} */
+
+/* 
+*{
+  box-sizing: border-box;
+} */
+/* 
+body{
+  background-color: #CAD2C5;
+}
+.test1 ul{
+  list-style-type: none;
+  padding:0;
+  margin: 0;
+  width: 15%;
+  position:absolute;
+}
+
+.test1 li{
+  padding:8px;
+  margin-bottom:7px;
+  background-color: #33b5e5;
+  color:#ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12) 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.test1 li:hover{
+  background-color:#0099cc;
+}
+
+.row::after{
+  content:'';
+  clear:both;
+  display:table;
+}
+
+
+
+#title{
+  color:white
+}
+
+#register{
+  padding:100px;
+
+}
+
+
+
+#loginResult{
+  text-align: center;
+  font-size:22px;
+}
+
+.custom-container{
+  min-height: 20vh;
+  min-width: auto;
+  max-width: auto;
+
+}  */
+ 
+
+.App {
+  text-align: center;
+  flex: 1;
+  background-color: '#6ED4C8';
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #000000;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* html, was here*/
+html, body {
+  background-color: #2F3E46;
+  color: #000000;
+  padding: 40px;
+  font-family: Arial;
+}
+.fixed_header{
+  width: 650px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.fixed_header tbody{
+display:block;
+width: 100%;
+overflow: auto;
+height: 200px;
+background:   #84a98c;
+border-style: ridge;
+border-inline-color: black;
+}
+
+.fixed_header thead tr {
+ display: flex;
+}
+
+.fixed_header thead {
+background:   #cad2c5
+;
+color:rgb(0, 0, 0);
+
+}
+
+.fixed_header th, .fixed_header td {
+padding: 5px;
+text-align: left;
+width: 350px;
+}
+
+
+
+
+.hint {
+  padding: .5rem 15px;
+}
+nav
+{
+   position: fixed;
+   top: 0px;
+}
+.omegadiv{
+
+  display:flex
+  
+  }
+ 
+.accordio2 {
+    background-color: rgb(9, 7, 7);
+    flex: 2;
+    color: #000000;
+}
+.accordio {
+  background-color: rgb(250, 250, 250);
+  flex: 3;
+  
+}
+.App {
+    background-color: rgb(255, 255, 255);
+    flex: 5;
+}
+/* .btn {
+  border:none !important;;
+  border-radius: 100%; 
+} */
+
+
+.btn{
+  
+  color: white;
+}
+
+.btn:hover{
+  
+  cursor:pointer;
+  opacity: 0.9;
+  transform:scale(0.98);
+}
+
+.accordion-button {
+  background-color: #cad2c5 !important;
+}
+
+.accordion-button:focus {
+  /* box-shadow: -20px -16px #6c834f; */
+  border:none !important;;
+  background-color: rgb(147, 155, 137) !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #cad2c5;
+  border:none !important;;
+  background-color: #2F3E46 !important;
+}
+
+.Megadiv {
+
+}
+.site {  overflow-x: hidden !important; }
+
+.panel-heading {
+  background-color:#000;
+}
